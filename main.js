@@ -22,11 +22,15 @@ function listen(text) {
 // Function to capture the screen and perform OCR
 function captureScreenAndReadText() {
     const wordList = [
-        "g r a v i t y", "c a r e e r", "e n g a g e d", "S o d o I", "e x a c t l y", "m u s i c a l", "overall", "however", "answer", "refund", "switch on", "bus stop", "holidays", "tsunami", "cheer up", "Come on!", "overcome", "starlight", "wireless", "affection", "username", "feelings", "grown-up", "blue-eyed", "Hollywood", "light-year", "easy-going", "plagiarism", "connection", "a film-goer", "nominations", "Absolutely!", "magnificent", "accessories", "incongruity", "Oh my gosh!"
+        "g r a v i t y", "c a r e e r", "e n g a g e d", "S o d o I", "e x a c t l y", "m u s i c a l", "o v e r a l l", "h o w e v e r", "a n s w e r", "refund", "switch on", "bus stop", "holidays", "tsunami", "cheer up", "Come on!", "o v e r c o m e", "s t a r l i g h t", "w i r e l e s s", "affection", "username", "feelings", "grown-up", "blue-eyed", "Hollywood", "light-year", "easy-going", "plagiarism", "connection", "a film-goer", "nominations", "Absolutely!", "magnificent", "accessories", "incongruity", "Oh my gosh!"
     ];
 
-    const randomIndex = Math.floor(Math.random() * wordList.length);
-    tossedWord = wordList[randomIndex];
+    const pronunciationWordList = [
+        "gravity", "career", "engaged", "So do I", "exactly", "musical", "overall", "however", "answer", "refund", "switch on", "bus stop", "holidays", "tsunami", "cheer up", "Come on!", "overcome", "starlight", "wireless", "affection", "username", "feelings", "grown-up", "blue-eyed", "Hollywood", "light-year", "easy-going", "plagiarism", "connection", "a film-goer", "nominations", "Absolutely!", "magnificent", "accessories", "incongruity", "Oh my gosh!"
+    ]
+
+    const randomIndex = Math.floor(Math.random() * wordList.length && pronunciationWordList.length);
+    tossedWord = pronunciationWordList[randomIndex];
 
     // Display the static text on the webpage
     document.getElementById('output').innerText = tossedWord;
