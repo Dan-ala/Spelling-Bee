@@ -85,8 +85,8 @@ click_to_convert.addEventListener('click', function () {
         }
     });
 
-    // if (spellMode) {
-    //     recognition.start();
-    // }
+    if (spellMode) {
+        recognition.start();
+    }
 });
 }
