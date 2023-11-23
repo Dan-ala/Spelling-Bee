@@ -22,7 +22,7 @@ function listen(text) {
 // Function to capture the screen and perform OCR
 function captureScreenAndReadText() {
     const wordList = [
-        "gravity", "career", "engaged", "So do I", "exactly", "musical", "overall", "however", "answer", "refund", "switch on", "bus stop", "holidays", "tsunami", "cheer up", "Come on!", "overcome", "starlight", "wireless", "affection", "username", "feelings", "grown-up", "blue-eyed", "Hollywood", "light-year", "easy-going", "plagiarism", "connection", "a film-goer", "nominations", "Absolutely!", "magnificent", "accessories", "incongruity", "Oh my gosh!"
+        "g r a v i t y", "c a r e e r", "e n g a g e d", "S o d o I", "e x a c t l y", "m u s i c a l", "overall", "however", "answer", "refund", "switch on", "bus stop", "holidays", "tsunami", "cheer up", "Come on!", "overcome", "starlight", "wireless", "affection", "username", "feelings", "grown-up", "blue-eyed", "Hollywood", "light-year", "easy-going", "plagiarism", "connection", "a film-goer", "nominations", "Absolutely!", "magnificent", "accessories", "incongruity", "Oh my gosh!"
     ];
 
     const randomIndex = Math.floor(Math.random() * wordList.length);
