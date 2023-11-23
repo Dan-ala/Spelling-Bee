@@ -26,7 +26,7 @@ function captureScreenAndReadText() {
     const wordList = [
         "gravity", "career", "engaged", "So do I", "exactly", "musical", "overall", "however", "answer", "refund", "switch on", "bus stop", "holidays", "tsunami", "cheer up", "Come on!", "overcome", "starlight", "wireless", "affection", "username", "feelings", "grown-up", "blue-eyed", "Hollywood", "light-year", "easy-going", "plagiarism", "connection", "a film-goer", "nominations", "Absolutely!", "magnificent", "accessories", "incongruity", "Oh my gosh!",
         "extinction", "necessities", "chewing gum", "Oscar Awards", "embarrassing", "consumerism", "I'm blushing", "pediatrician", "adaptability", "Are you ok?",
-        "ticket booth", "philanthropy", "astonishment", "electryfying", "dwarf planet", "dissapointment", "to binge-watch", "privatization", "non-renewable",
+        "ticket booth", "philanthropy", "astonishment", "electrifying", "dwarf planet", "dissapointment", "to binge-watch", "privatization", "non-renewable",
         "Top 10 Movies", "Golden Globes", "postindustrial", "unsuccessfully", "acknowledgment"
     ];
 
